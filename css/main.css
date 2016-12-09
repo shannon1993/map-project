@@ -1,0 +1,119 @@
+      html,
+      body {
+        font-family: Arial, sans-serif;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container1 {
+        height: 100%;
+        position: relative;
+      }
+
+      input {
+        font-size: 12px;
+      }
+
+      h1 {
+        color: #525454;
+        font-size: 22px;
+        margin: 0 0 10px 0;
+        text-align: left;
+      }
+
+      #map {
+        bottom:0px;
+        height: 100%;
+
+        right: 0px;
+      }
+
+
+      #search-button {
+      position: relative;
+      top: 0;
+      left: 0;
+      height: 40px;
+      width: 80px;
+      font-size: 14px;
+      color: #fff;
+      text-align: center;
+      line-height: 40px;
+      border-width: 0;
+      margin: 0 0 5px -7px;
+      background-color:purple;
+      -webkit-border-radius: 0px 5px 5px 0px;
+      -moz-border-radius: 0px 5px 5px 0px;
+      border-radius: 0px 5px 5px 0px;
+      }
+
+      #inputBox{
+      height: 35px;
+      width: 258px;
+      font-size: 14px;
+      -webkit-border-radius: 0px 5px 5px 0px;
+      -moz-border-radius: 0px 5px 5px 0px;
+      border-radius: 0px 5px 5px 0px;
+      }
+
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li:last-child {
+        border: none;
+      }
+
+      li{
+        border-bottom: 1px solid #ccc;
+        cursor:pointer;        
+        color: #000;
+        -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+        -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+        transition: font-size 0.3s ease, background-color 0.3s ease;
+        display: block;
+      }
+
+      li:hover {
+        font-size: 19px;
+        background: #f6f6f6;
+      }      
+
+      #menu svg {
+      width: 40px;
+      fill: #000;
+      }
+
+      div.options-box1.open{
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);   
+      }
+
+      div.options-box1 {
+      position: absolute;
+      z-index: 1;
+      background: #fff;
+      border: 1px solid #999;
+      border-radius: 3px;
+      line-height: 35px;
+      padding: 10px 10px 30px 10px;
+      text-align: left;
+      width: 340px; 
+      height: 100%; 
+      -webkit-transform: translate(-364px, 0);
+      transform: translate(-364px, 0); 
+      transition: transform 0.3s ease;
+      }
+
+
+  @media screen and (min-width: 900px) {
+    div.options-box1{
+          -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);   
+      }
+}
+
